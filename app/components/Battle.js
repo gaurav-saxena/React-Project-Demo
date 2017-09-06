@@ -46,7 +46,7 @@ class Battle extends Component {
                 to={{
                   pathname:'/result',
                   search: '?user1=' +user1+ '&user2='+user2
-                }}>Result</Link>
+                }}>Compare</Link>
             : ''}
       </div>
     );
