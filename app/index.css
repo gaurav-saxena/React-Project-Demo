@@ -1,0 +1,74 @@
+.userImg { width:100px;}
+.langNav li{list-style: none; float: left; margin: 0 20px; font:bold 14px arial;}
+body{font: 12px arial}
+.repoItem{clear: both; margin: 20px;}
+.repoItem li {
+    text-align: center;
+    list-style: none;
+    float: left;
+    margin: 28px 18px;
+    font: bold 14px arial;
+    width: 128px;
+    height: 138px;
+}
+.repoName {
+    display: block;
+    font: bold 14px arial;
+    text-align: center;
+}
+
+.nav{display: flex; margin:10px 0 30px }
+ul li{list-style: none;}
+
+.active{font-weight: bold; color: blue}
+.nav li{
+  margin-right: 18px;
+  font: bold 16px arial;
+}
+a{text-decoration: none; color: #000;}
+
+.repoImg {
+    width: 98px;
+    border-radius: 8px;
+}
+.rank {
+    font-size: 16px;
+    margin: 10px;
+    display: block;
+    text-align: center;
+}
+.langNav li{cursor: pointer}
+.loading {
+    font: bold 18px arial;
+    text-align: center;
+    margin: 68px 0;
+    width: 100%;
+    float: left;
+    color: ccc;
+}
+.results{width:100%}
+.results .userDetails{float: left; width: 48%; text-align: center}
+.resetButton {
+    border: none;
+    background: transparent;
+    color: #483df5;
+    text-align: center;
+    text-decoration: underline;
+}
+.clearfix{*zoom:1}
+.clearfix:before,.clearfix:after{display:table;line-height:0;content:""}
+.clearfix:after{clear:both}
+.button {
+    color: #e6e6e6;
+    background: #0a0a0a;
+    clear: both;
+    border: none;
+    font-size: 16px;
+    border-radius: 3px;
+    width: 200px;
+    text-align: center;
+    display: block;
+    padding: 7px 0;
+    margin: 10px auto;
+}
+.userDetail { width: 49%; float: left;margin: 20px 0;text-align: center;}
